@@ -12,6 +12,9 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "index";
+        /**
+         * 前缀和后缀组合成：/custom/index.html
+         */
+        return "zxy";
     }
 }

@@ -1,0 +1,10 @@
+
+#指定静态资源路径，默认是前个，请看WebMvcAutoConfiguration 配置类
+spring:
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/custom/
+
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
