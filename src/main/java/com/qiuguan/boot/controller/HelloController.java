@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HelloController {
 
-    @GetMapping("/hello")
+    @GetMapping("/hello222")
     public String hello(){
         /**
          * 前缀和后缀组合成：/custom/index.html
